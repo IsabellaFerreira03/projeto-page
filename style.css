@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bungee+Shade&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Emilys+Candy&family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwitcher+Grypen&family=Ribeye+Marrow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bungee+Shade&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Emilys+Candy&family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwitcher+Grypen&family=Ribeye+Marrow&family=Vast+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bungee+Shade&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Emilys+Candy&family=Jacques+Francois+Shadow&family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwitcher+Grypen&family=Ribeye+Marrow&family=Vast+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bungee+Shade&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Emilys+Candy&family=Jacques+Francois+Shadow&family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwitcher+Grypen&family=Ribeye+Marrow&family=Vast+Shadow&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: rgba(217, 217, 236, 0.566);
+}
+
+.cabeçalho {
+    background-color: rgb(5, 5, 196);
+    text-align: center;
+    color: rgb(255, 255, 255);;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Vast Shadow', 'Baskervville SC', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(185, 191, 255, 0.566);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main h1 {
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+}
+
+main h3 {
+    text-align: center;
+    color: rgb(27, 97, 227);
+    padding: 6px;
+}
+
+.nome {
+    padding: 1px;
+    color: rgb(0, 0, 132);
+    text-align: center;
+    font-family: 'Dancing Script',"Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+summary{
+    padding: 20px;
+    font-family: 'Vast Shadow', 'Baskervville SC', serif;
+    font-size: 1.6em;
+    text-align: center;
+    color: blue;
+}
+
+details li {
+    text-align: center;
+    padding: 3px;
+    color: rgb(27, 97, 227);
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+details ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: blue;
+
+}
+
+table, th, td {
+    border: 1px solid rgb(30, 0, 255);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(205, 209, 254, 0.566);
+    color: #0a0056;
+    padding: 1rem;
+}
+
+td {
+    color: #0a0056;
+    padding: 1rem;
+    text-align: center;
+}
+
+.final {
+    padding: 30px;
+    color: blue;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: sans-serif;
+}
+
+a button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+a button:hover {
+    background-color: #0056b3;
+}
+
+
