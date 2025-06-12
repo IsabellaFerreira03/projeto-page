@@ -136,5 +136,11 @@ a button:hover {
     margin-right: 8px;
 }
 
+footer {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
 
